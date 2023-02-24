@@ -224,4 +224,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreenSimple.unity
     guid: 945e5b97212e8e74ebcd35bddde3970c
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 3cf79ae1fb36df14298799629a3f5eb0
+  - enabled: 1
+    path: Assets/Scenes/Pausa.unity
+    guid: 7e0b7164c7740124ba5a1094d83ff38d
+  - enabled: 1
+    path: Assets/Scenes/Juego.unity
+    guid: 0bdb27b1dde4b3e4bacc8744a4109d51
   m_configObjects: {}

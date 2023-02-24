@@ -1,32 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using MoreMountains.CorgiEngine;
-using MoreMountains.Tools;
 using UnityEngine.SceneManagement;
 
-public class controlmenu : MonoBehaviour
+public class ControlMenu : MonoBehaviour
 {
     public void OnpressJugar()
     {
-        MMSceneLoadingManager.LoadScene("Juego");
+        //MMSceneLoadingManager.LoadScene("Jugar");
         SceneManager.LoadScene("Juego", LoadSceneMode.Single);
     }
-
-    public void Onpressinstrucciones()
+    public void OnPressPausa()
     {
-        MMSceneLoadingManager.LoadScene("Instrucciones");
-        SceneManager.LoadScene("instrucciones", LoadSceneMode.Single);
+        Debug.Log("Pausa");
+       // MMSceneLoadingManager.LoadScene("Pausa");
+        SceneManager.LoadScene("Pausa", LoadSceneMode.Single);
     }
-
-    public void OnpressVolverMenu()
+    public void OnpressExit()
     {
-        MMSceneLoadingManager.LoadScene("Menu");
+        //MMSceneLoadingManager.LoadScene("Jugar");
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
-
-    public void OnpressSalir()
+    public void OnPressPause()
     {
-        MMSceneLoadingManager.LoadScene("Salir");
+        Debug.Log("Pausa");
+        // MMSceneLoadingManager.LoadScene("Pausa");
+        SceneManager.LoadScene("Pausa", LoadSceneMode.Single);
     }
 }
