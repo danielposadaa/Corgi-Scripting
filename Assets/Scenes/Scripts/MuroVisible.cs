@@ -12,13 +12,16 @@ public class MuroVisible : MonoBehaviour
     {
         control_llaves = this.transform.parent.GetComponent<ControlLlaves>();
        // control_llaves = this.GetComponent.ControlLlaves();
-        //Debug.Log(control_llaves);
+        Debug.Log(control_llaves);
     }
 
     public void Update()
     {
-       if(control_llaves.CantidadLlavesRecolectadas()==3);
-        cambiarEstado(false);
+        if (control_llaves.CantidadLlavesRecolectadas() == 30)
+        {
+            cambiarEstado(false);
+        }
+        
     }
     public void cambiarEstado(bool estado)
     {
