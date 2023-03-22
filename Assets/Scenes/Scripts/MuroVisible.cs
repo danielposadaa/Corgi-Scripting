@@ -17,7 +17,7 @@ public class MuroVisible : MonoBehaviour
 
     public void Update()
     {
-        if (control_llaves.CantidadLlavesRecolectadas() == 30)
+        if (control_llaves.CantidadLlavesRecolectadas() == 180)
         {
             cambiarEstado(false);
         }
