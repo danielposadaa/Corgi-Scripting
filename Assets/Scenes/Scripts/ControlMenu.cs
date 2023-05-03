@@ -8,7 +8,7 @@ public class ControlMenu : MonoBehaviour
     public void OnpressJugar()
     {
         //MMSceneLoadingManager.LoadScene("Jugar");
-        SceneManager.LoadScene("Juego", LoadSceneMode.Single);
+        SceneManager.LoadScene("Nivel 1", LoadSceneMode.Single);
     }
     public void OnPressPausa()
     {
