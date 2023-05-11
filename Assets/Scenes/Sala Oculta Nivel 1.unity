@@ -1389,9 +1389,30 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ca9eaa1b40519b34592827a7f01bc4fd,
+        type: 3}
     - target: {fileID: 11469452, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: ForcedMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 175.2971
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 228.3927
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 22425704, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -7991,6 +8012,10 @@ PrefabInstance:
     - target: {fileID: 1675362664273752, guid: a67f324deca2cc34590800dd3f66b6a1, type: 3}
       propertyPath: m_Name
       value: RetroSwordsman
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067910599448210, guid: a67f324deca2cc34590800dd3f66b6a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4077180903101272, guid: a67f324deca2cc34590800dd3f66b6a1, type: 3}
       propertyPath: m_RootOrder
@@ -15957,6 +15982,10 @@ PrefabInstance:
     - target: {fileID: 1675362664273752, guid: a67f324deca2cc34590800dd3f66b6a1, type: 3}
       propertyPath: m_Name
       value: RetroSwordsman (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067910599448210, guid: a67f324deca2cc34590800dd3f66b6a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.39
       objectReference: {fileID: 0}
     - target: {fileID: 4077180903101272, guid: a67f324deca2cc34590800dd3f66b6a1, type: 3}
       propertyPath: m_RootOrder

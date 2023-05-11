@@ -3,23 +3,45 @@ using System.Collections.Generic;
 using UnityEngine;
 using MoreMountains.CorgiEngine;
 
+
 public class FondoUPB : MonoBehaviour
 {
-    public Sprite backgroundImage;
+    private SpriteRenderer _spriteRenderer;
+    private string _sequence = "";
 
-    private SpriteRenderer spriteRenderer;
+    public Sprite firstImage;
+    public Sprite secondImage;
 
-    private void Start()
+    void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer.sprite = firstImage;
     }
 
-    private void Update()
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.U) && Input.GetKeyDown(KeyCode.P) && Input.GetKeyDown(KeyCode.B))
+        if (Input.anyKeyDown)
         {
-            spriteRenderer.sprite = backgroundImage;
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                _sequence += "U";
+            }
+            else if (Input.GetKeyDown(KeyCode.P))
+            {
+                _sequence += "P";
+            }
+            else if (Input.GetKeyDown(KeyCode.B))
+            {
+                _sequence += "B";
+            }
+        }
+
+        if (_sequence == "UPB")
+        {
+            _spriteRenderer.sprite = secondImage;
+            _sequence = "";
         }
     }
 }
+
 
