@@ -22085,8 +22085,8 @@ MonoBehaviour:
   ResetPointsOnRestart: 1
   BoundsMode: 1
   LevelBounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 25, y: 24.99, z: 5}
+    m_Center: {x: 5.8, y: 19, z: 0}
+    m_Extent: {x: 12.8, y: 35, z: 5}
   ConvertToColliderBoundsButton: 0
   LoadingSceneMode: 1
   LoadingSceneName: LoadingScreen
@@ -34235,12 +34235,12 @@ PrefabInstance:
     - target: {fileID: 2142213752304751977, guid: 810e867dbedbce1409868121933486de,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.44
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 2142213752304751977, guid: 810e867dbedbce1409868121933486de,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.220001
+      value: 62.83
       objectReference: {fileID: 0}
     - target: {fileID: 2142213752304751977, guid: 810e867dbedbce1409868121933486de,
         type: 3}
@@ -34285,7 +34285,7 @@ PrefabInstance:
     - target: {fileID: 2142213752315769575, guid: 810e867dbedbce1409868121933486de,
         type: 3}
       propertyPath: LevelName
-      value: Nivel 2
+      value: Nivel 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 810e867dbedbce1409868121933486de, type: 3}
