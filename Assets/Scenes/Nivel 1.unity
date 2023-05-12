@@ -3518,7 +3518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df56deb4565daef4f8bd74fbf46eb84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstImage: {fileID: 21300000, guid: f794a3e23f7f4f148a7585bcc86e617a, type: 3}
+  firstImage: {fileID: 0}
   secondImage: {fileID: 21300000, guid: 47d7670a0a74b9a459e77009097a98da, type: 3}
 --- !u!212 &1112743575
 SpriteRenderer:
