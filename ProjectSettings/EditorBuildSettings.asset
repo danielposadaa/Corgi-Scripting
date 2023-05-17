@@ -240,12 +240,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadingScreen.unity
     guid: 3dae38321f8b7c84b880f51f95385159
   - enabled: 1
-    path: Assets/Scenes/Nivel 3.unity
-    guid: bf9335fb97ee0e64b99b3a9d27cb2036
-  - enabled: 1
     path: Assets/Scenes/SalaOcu1.unity
     guid: 2ff5bc39c6708124d9ea4868ca96ab65
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: c0c43f4ccd025ef4ab38a05777a4c8b4
+  - enabled: 1
+    path: Assets/Scenes/SalaOcu2.unity
+    guid: 94fb276936470ef45809d877db844107
   m_configObjects: {}
