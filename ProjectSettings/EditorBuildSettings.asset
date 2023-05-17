@@ -207,13 +207,10 @@ EditorBuildSettings:
     path: Assets/CorgiEngine/Demos/RetroAdventure/RetroAdventure5.unity
     guid: 702b1d26cdfc0ae4e9b4fd1d881b1e8f
   - enabled: 1
-    path: Assets/CorgiEngine/Demos/RetroAdventure/RetroAdventureLevelSelection.unity
-    guid: a70302a2680553d40a0f9d57ee57ca5b
-  - enabled: 1
     path: Assets/CorgiEngine/Demos/RetroAdventure/RetroAdventureCharacterSelection.unity
     guid: 5716dd8c709a03142b13533ed057a262
   - enabled: 1
-    path: Assets/CorgiEngine/Demos/RetroAdventure/RetroAdventureGameOver.unity
+    path: Assets/RetroAdventureGameOver.unity
     guid: aba2daab4ea9f82428c58d957862f82d
   - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreenBigText.unity
@@ -240,6 +237,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadingScreen.unity
     guid: 3dae38321f8b7c84b880f51f95385159
   - enabled: 1
+    path: Assets/Scenes/Nivel 3.unity
+    guid: bf9335fb97ee0e64b99b3a9d27cb2036
+  - enabled: 1
     path: Assets/Scenes/SalaOcu1.unity
     guid: 2ff5bc39c6708124d9ea4868ca96ab65
   - enabled: 1
@@ -248,10 +248,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SalaOcu2.unity
     guid: 94fb276936470ef45809d877db844107
-<<<<<<< Updated upstream
-=======
   - enabled: 1
     path: Assets/Scenes/SalaOcu3.unity
     guid: 78da884ee251a3d4fb6523cc0ae91967
->>>>>>> Stashed changes
   m_configObjects: {}
