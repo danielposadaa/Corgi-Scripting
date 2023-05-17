@@ -248,4 +248,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SalaOcu2.unity
     guid: 94fb276936470ef45809d877db844107
+<<<<<<< Updated upstream
+=======
+  - enabled: 1
+    path: Assets/Scenes/SalaOcu3.unity
+    guid: 78da884ee251a3d4fb6523cc0ae91967
+>>>>>>> Stashed changes
   m_configObjects: {}
