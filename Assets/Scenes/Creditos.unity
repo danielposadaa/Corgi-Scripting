@@ -538,19 +538,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalScale.x
-      value: 45.048
+      value: 45.1426
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.625
+      value: 1.6789999
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.87
+      value: 11.6345
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.53
+      value: 5.4663
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalPosition.z
@@ -805,19 +805,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalScale.x
-      value: 45.048
+      value: 44.80474
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.625
+      value: 2.1941874
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.97
+      value: -12.1077
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.14
+      value: 5.315
       objectReference: {fileID: 0}
     - target: {fileID: 453088, guid: 9fb7dff57c33f8f4d9be87b536160473, type: 3}
       propertyPath: m_LocalPosition.z
@@ -906,7 +906,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.020069
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
